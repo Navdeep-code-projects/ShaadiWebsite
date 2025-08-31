@@ -33,7 +33,7 @@ function Logo({ className }: { className?: string }) {
   return (
     <div className={cn("relative group", className)}>
       <ThumbnailImage
-        src="/images/branding/logos/shaadi-squad-main-logo.webp"
+        src="/shaadi-squad-main-logo.webp"
         alt="Seattle Shaadi Logo"
         width={150}
         height={50}
