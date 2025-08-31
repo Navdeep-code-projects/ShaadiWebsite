@@ -22,7 +22,7 @@ export const SEOOptimizer: React.FC<SEOOptimizerProps> = ({
   description,
   keywords = [],
   canonicalUrl,
-  ogImage = '/images/seo/shaadi-squad-og-image.png',
+  ogImage = '/og-image.png',
   ogType = 'website',
   twitterCard = 'summary_large_image',
   structuredData = [],

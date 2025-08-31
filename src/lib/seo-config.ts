@@ -4,7 +4,7 @@ export const siteConfig = {
   name: "Seattle Shaadi - Best Indian Wedding Planner in Seattle",
   description: "Seattle's #1 Indian wedding planner specializing in Hindu, Sikh, and traditional Indian weddings. Expert coordination, authentic cultural celebrations, and luxury wedding planning services across Washington State and USA. Top-rated Indian wedding coordinator with 127+ five-star reviews.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://seattleshaadi.com",
-  ogImage: "/images/seo/shaadi-squad-og-image.png",
+  ogImage: "/og-image.png",
   keywords: [
     // Primary high-value keywords (most important)
     "best Indian wedding planner Seattle",

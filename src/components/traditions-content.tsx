@@ -20,7 +20,7 @@ const traditions: Record<string, Tradition[]> = {
       description: 'A pre-wedding ritual where turmeric paste is applied to the bride and groom for purification and blessings.',
       significance: 'Turmeric is believed to have purifying properties and brings good luck to the couple.',
       modernAdaptations: 'Many couples now have organic turmeric facials or spa-style haldi ceremonies with professional photographers.',
-      imageUrl: '/images/traditions/haldi.jpg'
+      imageUrl: '/haldi.png'
     },
     {
       id: 'mehndi',
@@ -28,7 +28,7 @@ const traditions: Record<string, Tradition[]> = {
       description: 'An artistic celebration where intricate henna designs are applied to the bride\'s hands and feet.',
       significance: 'The darker the mehndi color, the deeper the love between the couple.',
       modernAdaptations: 'Contemporary designs include minimalist patterns, couple portraits, and meaningful symbols.',
-      imageUrl: '/images/traditions/mehndi.jpg'
+      imageUrl: '/intricate-mehndi-henna-designs.jpg'
     },
     {
       id: 'jaimala',
@@ -36,7 +36,7 @@ const traditions: Record<string, Tradition[]> = {
       description: 'The ceremonial exchange of floral garlands between bride and groom.',
       significance: 'Symbolizes the acceptance of each other as life partners.',
       modernAdaptations: 'Couples now use exotic flowers, personalized garlands, or even living plant garlands.',
-      imageUrl: '/images/traditions/jaimala.jpg'
+      imageUrl: '/jaimala-garland-exchange.png'
     },
     {
       id: 'pheras',
@@ -44,7 +44,7 @@ const traditions: Record<string, Tradition[]> = {
       description: 'Seven circles around the sacred fire while making vows to each other.',
       significance: 'Each circle represents a vow for their married life together.',
       modernAdaptations: 'Couples often write personalized vows in addition to traditional Sanskrit ones.',
-      imageUrl: '/images/traditions/pheras.jpg'
+      imageUrl: '/saat-pheras-seven-vows.png'
     }
   ],
   sikh: [
@@ -54,7 +54,7 @@ const traditions: Record<string, Tradition[]> = {
       description: 'The Sikh wedding ceremony performed in the presence of Guru Granth Sahib.',
       significance: 'A spiritual union blessed by Guru Granth Sahib with hymns and prayers.',
       modernAdaptations: 'Modern ceremonies often include English explanations for non-Sikh guests.',
-      imageUrl: '/images/traditions/anand-karaj.jpg'
+      imageUrl: '/anand-karaj.png'
     },
     {
       id: 'laavan',
@@ -62,7 +62,7 @@ const traditions: Record<string, Tradition[]> = {
       description: 'Four sacred hymns sung during the wedding ceremony.',
       significance: 'Each hymn represents a stage of spiritual and marital development.',
       modernAdaptations: 'Couples learn the meaning of each laav to deepen their understanding.',
-      imageUrl: '/images/traditions/laavan.jpg'
+      imageUrl: '/vows-and-union-in-the-saat-pheras-tradition.png'
     }
   ],
   muslim: [
@@ -72,7 +72,7 @@ const traditions: Record<string, Tradition[]> = {
       description: 'The Islamic marriage contract ceremony with witnesses.',
       significance: 'A sacred contract between bride and groom in the presence of Allah.',
       modernAdaptations: 'Modern nikah ceremonies often include personalized vows alongside traditional ones.',
-      imageUrl: '/images/traditions/nikah.jpg'
+      imageUrl: '/nikah-ceremony.png'
     },
     {
       id: 'walima',
@@ -80,7 +80,7 @@ const traditions: Record<string, Tradition[]> = {
       description: 'The wedding reception hosted by the groom\'s family.',
       significance: 'A celebration to announce the marriage to the community.',
       modernAdaptations: 'Contemporary walimas blend traditional elements with modern reception styles.',
-      imageUrl: '/images/traditions/walima.jpg'
+      imageUrl: '/bride-elaborate-mehndi-traditional-jewelry.png'
     }
   ],
   'south-indian': [
@@ -90,7 +90,7 @@ const traditions: Record<string, Tradition[]> = {
       description: 'Playful throwing of rice and flower petals over each other.',
       significance: 'Symbolizes prosperity and fertility in married life.',
       modernAdaptations: 'Couples use colorful flower petals or biodegradable confetti.',
-      imageUrl: '/images/traditions/talambralu.jpg'
+      imageUrl: '/south-indian-bride-sacred-ritual.png'
     },
     {
       id: 'oonjal',
@@ -98,7 +98,7 @@ const traditions: Record<string, Tradition[]> = {
       description: 'The swing ceremony where the couple sits on a decorated swing.',
       significance: 'Represents the ups and downs of married life and mutual support.',
       modernAdaptations: 'Modern oonjal ceremonies feature custom-designed swings and photo opportunities.',
-      imageUrl: '/images/traditions/oonjal.jpg'
+      imageUrl: '/bride-elaborate-mehndi-traditional-jewelry.png'
     }
   ]
 };

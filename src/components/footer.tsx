@@ -27,7 +27,7 @@ export function Footer() {
               <div className="mb-4 flex justify-center md:justify-start">
                 <div className="relative group">
                   <Image
-                    src="/images/branding/logos/shaadi-squad-main-logo.webp"
+                    src="/shaadi-squad-main-logo.webp"
                     alt="Seattle Shaadi Logo"
                     width={120}
                     height={40}

@@ -40,7 +40,7 @@ export function generateTraditionStructuredData(
     '@type': 'Article',
     'headline': `${tradition.name} - Indian Wedding Tradition`,
     'description': tradition.description,
-    'image': tradition.imageUrl || `${url.split('/').slice(0, 3).join('/')}/images/seo/shaadi-squad-og-image.png`,
+    'image': tradition.imageUrl || `${url.split('/').slice(0, 3).join('/')}/og-image.png`,
     'author': {
       '@type': 'Organization',
       'name': 'Indian Wedding Planner',
@@ -51,7 +51,7 @@ export function generateTraditionStructuredData(
       'name': 'Indian Wedding Planner',
       'logo': {
         '@type': 'ImageObject',
-        'url': `${url.split('/').slice(0, 3).join('/')}/images/branding/logos/shaadi-squad-standard-logo.png`
+        'url': `${url.split('/').slice(0, 3).join('/')}/shaadi-squad-standard-logo.png`
       }
     },
     'mainEntityOfPage': {
@@ -143,7 +143,7 @@ export function generateLocalBusinessStructuredData(
     '@type': 'LocalBusiness',
     'name': data.name || 'Indian Wedding Planner',
     'description': data.description || 'Luxury Indian wedding planning services in Seattle.',
-    'image': data.image || `${url.split('/').slice(0, 3).join('/')}/images/branding/logos/shaadi-squad-standard-logo.png`,
+    'image': data.image || `${url.split('/').slice(0, 3).join('/')}/shaadi-squad-standard-logo.png`,
     'url': url,
     'telephone': data.telephone || '+1-206-555-0100',
     'address': {

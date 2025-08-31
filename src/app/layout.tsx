@@ -83,8 +83,8 @@ export default function RootLayout({
     <html lang="en" className={`${playfairDisplay.variable} ${lato.variable} !scroll-smooth`} suppressHydrationWarning>
        <head>
           {/* Preload critical resources for better performance */}
-          <link rel="preload" href="/images/seo/shaadi-squad-og-image.png" as="image" type="image/png" />
-          <link rel="preload" href="/images/branding/logos/shaadi-squad-high-resolution-logo-transparent.png" as="image" type="image/png" />
+          <link rel="preload" href="/og-image.png" as="image" type="image/png" />
+          <link rel="preload" href="/shaadi-squad-high-resolution-logo-transparent.png" as="image" type="image/png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
           

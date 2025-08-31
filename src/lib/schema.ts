@@ -105,7 +105,7 @@ export const localBusinessSchema = {
   "@id": `${siteConfig.url}/#localbusiness`,
   "name": "Seattle Shaadi - Best Indian Wedding Planner in Seattle",
   "alternateName": ["Seattle Shaadi", "Best Indian Wedding Planner Seattle", "Seattle Indian Wedding Coordinator"],
-  "image": [`${siteConfig.url}/Logo-new.webp`, `${siteConfig.url}/images/indian-wedding-seattle.jpg`],
+  "image": [`${siteConfig.url}/Logo-new.webp`, `${siteConfig.url}/indian-wedding-traditions-seattle.jpg`],
   "description": "Seattle's #1 rated Indian wedding planner with 127+ five-star reviews. Specializing in Hindu, Sikh, and traditional Indian weddings across Washington State. Expert coordination for authentic cultural celebrations.",
   "url": siteConfig.url,
   "telephone": "+1-XXX-XXX-XXXX", // Replace with actual phone number
